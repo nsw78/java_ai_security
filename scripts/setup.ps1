@@ -139,6 +139,6 @@ Write-Host ""
 Write-Host "Próximos passos:" -ForegroundColor Yellow
 Write-Host "  1. Execute a aplicação: .\mvnw.cmd spring-boot:run" -ForegroundColor White
 Write-Host "  2. Acesse: http://localhost:8080/swagger-ui.html" -ForegroundColor White
-Write-Host "  3. Leia o QUICKSTART.md para começar" -ForegroundColor White
+Write-Host "  3. Leia o docs/QUICKSTART.md para começar" -ForegroundColor White
 Write-Host ""
 

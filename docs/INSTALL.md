@@ -221,7 +221,7 @@ server:
 
 Após a instalação bem-sucedida:
 
-1. Leia o [QUICKSTART.md](QUICKSTART.md) para começar a usar a API
+1. Leia o [QUICKSTART.md](./QUICKSTART.md) para começar a usar a API
 2. Explore a documentação Swagger
 3. Configure variáveis de ambiente (veja `env.example`)
 

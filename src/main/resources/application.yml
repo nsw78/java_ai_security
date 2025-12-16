@@ -122,11 +122,14 @@ app:
 logging:
   level:
     root: INFO
-    com.trustai: DEBUG
-    org.springframework.security: DEBUG
-  pattern:
-    console: "%d{yyyy-MM-dd HH:mm:ss} - %msg%n"
-    file: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
-  file:
-    name: logs/ai-security-api.log
+    com.trustai: INFO
+    com.trustai.exception: WARN
+    com.trustai.util.StructuredLogger: INFO
+    org.springframework: WARN
+    org.springframework.security: INFO
+    org.hibernate: WARN
+    org.apache: WARN
+    io.lettuce: WARN
+    com.zaxxer.hikari: WARN
+  config: classpath:logback-spring.xml
 

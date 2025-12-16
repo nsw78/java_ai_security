@@ -19,10 +19,7 @@ import java.util.UUID;
  * Configuration for request correlation and MDC context
  */
 @Configuration
-@RequiredArgsConstructor
 public class LoggingConfig {
-
-    private final StructuredLogger structuredLogger;
 
     @Bean
     public Filter correlationIdFilter() {

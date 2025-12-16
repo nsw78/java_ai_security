@@ -115,10 +115,10 @@ docker-compose logs -f
 
 ## 📚 Documentação Completa
 
-- [INSTALL.md](INSTALL.md) - Guia completo de instalação
-- [QUICKSTART.md](QUICKSTART.md) - Primeiros passos com a API
+- [INSTALL.md](./INSTALL.md) - Guia completo de instalação
+- [QUICKSTART.md](./QUICKSTART.md) - Primeiros passos com a API
 - [README.md](README.md) - Documentação principal
-- [ARCHITECTURE.md](ARCHITECTURE.md) - Arquitetura do sistema
+- [ARCHITECTURE.md](./ARCHITECTURE.md) - Arquitetura do sistema
 
 ---
 
@@ -133,5 +133,5 @@ docker-compose logs -f
 
 ---
 
-**Precisa de ajuda?** Consulte o [INSTALL.md](INSTALL.md) para instruções detalhadas.
+**Precisa de ajuda?** Consulte o [INSTALL.md](./INSTALL.md) para instruções detalhadas.
 
