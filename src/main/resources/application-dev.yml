@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ai_security_db
+    username: postgres
+    password: postgres
+  
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+
+logging:
+  level:
+    com.trustai: DEBUG
+    org.springframework.security: DEBUG
+
